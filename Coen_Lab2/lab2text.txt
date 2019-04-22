@@ -1,0 +1,12 @@
+#Name - Jack Stephens
+#Date: April 15 2019
+#Title: COEN 177 Lab2
+#Description: Using processes and threads in c programs
+
+
+Part 1-4: 
+	When no delay is added after the executable file is ran, the program emits a segmentation fault. This is because the program expects an integer input in the program. 
+	(A) 
+	-  When a delay of 500 microseconds occurs, the output is pretty much parent, child, parent, child. It is almost one-to-one. I believe this is because child processes have enough time to execute before the parent executes and so the output goes back and forth. 
+	- When a delay of 5000 microseconds occurs, the output is parent, parent, child, child, and then switches back to parent, child, parent, child. I think this is because there is so much delay in each loop, so another parent process starts up before the child can execute. 
+	
