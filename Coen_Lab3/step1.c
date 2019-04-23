@@ -1,3 +1,10 @@
+/*
+# Name: <Jack Stephens>
+# Date: <April 22, 2019>
+# Title: Lab3 step1
+# Description: This program computes the shell command 'ls | more'
+*/
+
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>

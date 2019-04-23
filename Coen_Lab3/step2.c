@@ -1,3 +1,11 @@
+/*
+# Name: <Jack Stephens>
+# Date: <April 22, 2019>
+# Title: Lab3 step2
+# Description: This program uses pipe() to write the file called to the output
+*/
+
+
 /*sample C program for Lab assignment 3*/
 #include <stdio.h>
 #include <unistd.h>
